@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to left top,#65dfc9,#1d91a3);
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header{
+  font-size: 30px;
+    font-style: italic;
+    color: turquoise;
+    background:#343a40;
+}
+input{
+  outline:none;
+}
+.input_group{
+  width: 80% ;    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+input{
+  text-transform: capitalize;
+}
